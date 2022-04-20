@@ -1,0 +1,18 @@
+database:
+  type: mysql
+  ip: 127.0.0.1
+  port: 3306
+  name: LabSysDB
+  username: root
+  password: 714825936QY
+import:
+  gorm:
+    location: gorm.io/gorm
+    mysql:
+      location: gorm.io/driver/mysql
+  yaml:
+    location: gopkg.in/yaml.v2
+  gin:
+    location: github.com/gin-gonic/gin
+  set:
+    location: github.com/deckarep/golang-set
